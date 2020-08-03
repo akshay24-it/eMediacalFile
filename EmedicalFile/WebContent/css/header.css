@@ -1,0 +1,90 @@
+div{
+	border:none;
+	box-sizing: border-box;
+}
+
+#header{
+	width: 1580px;
+	height: 200px;
+}
+
+#body{
+	width:1580px;
+	height:500px;
+	
+}
+
+#footer{
+	width: 1580px;
+	height: 100px;
+}
+
+#logo{
+	width: 600px;
+	height: 200px;
+	float: left;
+	
+}
+#name{
+	width: 978px;
+	height: 100px;
+	float: left;
+	
+}
+#menu{
+	width: 978px;
+	height: 100px;
+	float: left;
+}
+#logo-img{
+	display:block;
+	margin-left: 160px;
+	margin-top: 50px;
+	
+}
+#name-title{
+	
+	text-align:right;
+	color: rgb(95,163,235);
+	margin-right: 150px;
+	font-size: 50px;
+
+}
+.menu-bar{
+	margin-right: 150px;
+}
+.menu-bar a{
+	margin-left: 15px;
+	font-size:22px;
+	float: right;
+	margin-top: 50px;
+	text-decoration:none;
+	color: rgb(23,132,247);
+	
+}
+.menu-bar a:HOVER {
+	color: rgb(245,51,7);
+}
+
+
+.caption{
+/* 	border:1px solid black; */
+/* 	padding-top:70px; */
+	height: 600px;
+	width: 900px;
+	float: left;
+}
+
+.caption h1 {
+    font-size: 157px;
+    color: #fff;
+    text-transform: uppercase;
+/*     margin-bottom: 0; */
+}
+.caption p{
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+/*     margin-top: 0; */
+}

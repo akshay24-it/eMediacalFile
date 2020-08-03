@@ -1,0 +1,27 @@
+@CHARSET "ISO-8859-1";
+
+.profile {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.profile td, .profile th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.profile tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+.profile tr:hover {
+	background-color: #ddd;
+}
+
+.box{
+	background-color: white;
+	width: 1000px;
+	margin-top: 50px;
+}
+

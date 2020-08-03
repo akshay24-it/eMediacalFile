@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost/emedicalfile</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">system</property>
+		<property name="hibernate.connection.pool_size">10</property>
+		<property name="show_sql">true</property>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <mapping class="VO.e_reg"/>
+        <mapping class="VO.e_user"/>
+        <mapping class="VO.m_info"/>
+        <mapping class="VO.pre_growth"/>
+        <mapping class="VO.current_growth"/>
+        <mapping class="VO.doctor"/>
+        <mapping class="VO.store"/>
+        <mapping class="VO.appoinment"/>
+        <mapping class="VO.vaccine"/>
+        <mapping class="VO.note"/>
+<!--         <mapping class="VO.fpass"/> -->
+	</session-factory>
+</hibernate-configuration>

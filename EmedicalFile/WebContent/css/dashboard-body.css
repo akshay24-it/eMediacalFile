@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+.dashboard-body{
+  padding: 16px;
+  width:1580px;
+	height:800px;
+	box-sizing: border-box;
+	border:none;
+	background-image:url("../img/slide-two.jpg");
+	 background-repeat: no-repeat;
+	 background-attachment:scroll;
+}
+
